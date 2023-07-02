@@ -1,5 +1,4 @@
 {
-	"version": 10003,
     "notify":{
         "experTime":"2023-12-01 17:00:00",
         "content":"通知，请不要相信xxx，本通知每次进入系统将会显示一次"
@@ -13,7 +12,5 @@
         "https://apia.youtvbox.xyz",
         "https://apib.youtvbox.xyz",
         "https://apic.youtvbox.xyz"
-    ],
-	"update-source": "https://gitee.com/goodfree/utv/releases/download/blob/1.02.blob",
-	"update-profile": "1.03正式版,使用自定义服务器，预留扩展api，当某个服务被关闭的时候app可以正常使用。"
+    ]
 }

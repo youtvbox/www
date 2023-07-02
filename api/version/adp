@@ -1,0 +1,5 @@
+{
+	"version": 10003,
+	"update-source": "https://gitee.com/goodfree/utv/releases/download/blob/utv_1_0_2.blob",
+	"update-profile": "游影视1.03版本，本版本采用蜂蜜框架，对提供了对手机的适配，之后手机版和tv版本客户端将进行分开的维护。官网：www.youtvbox.xyz"
+}
