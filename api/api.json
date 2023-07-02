@@ -3,10 +3,6 @@
         "experTime":"2023-12-01 17:00:00",
         "content":"通知，请不要相信xxx，本通知每次进入系统将会显示一次"
     },
-    "api_ex":{
-        "api":"/api/config.json",
-        "live":"/api/live.txt"
-    },
     "url_ex":[
         "https://www.youtvbox.xyz",
         "https://apia.youtvbox.xyz",
