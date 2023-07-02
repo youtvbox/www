@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <script id="jqbb" src="https://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./config.js"></script>
     <style type="text/css">
         html,
         body {
@@ -50,7 +51,7 @@
         #shadows {
             position: fixed;
             top: 2vmin;
-            opacity: 0.5;
+            /*opacity: 0.5;*/
         }
 
         label {
@@ -1451,11 +1452,35 @@
             animation-delay: 73ms;
         }
     </style>
+
+    <style>
+        .Notice {
+            color: white;
+            display:flex;
+            justify-content: center;
+            margin-bottom: 2vmin;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .link {
+            display: flex;
+            flex-direction: column-reverse;
+            color: white;
+            font-weight: bold;
+        }
+        .link a {
+            line-height: 5vmin;
+            cursor: pointer;
+            color: #6b84dc;
+        }
+    </style>
 </head>
 
 <body>
-	
-    <input type="checkbox" id="shadows" checked /><label for="shadows">Soft shadows</label>
+<iframe frameborder="no" border="1" marginwidth="0" marginheight="0" id="music" style="display: none" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=1396973729&auto=1&height=32"></iframe>
+    <div id="shadows">
+        <div class="Notice" for="shadows">公告</div>
+    </div>
     <div class="cubes">
 
         <div class="cube" data-cube="111">
@@ -1645,7 +1670,19 @@
 
 </body>
 <script>
-
+    let shadow = document.getElementById('shadows');
+    for (let i = 0; i < config.link.length; i++) {
+        let div = document.createElement('div')
+        div.className = 'link';
+        let label = document.createElement('span');
+        let oA = document.createElement("a");
+        label.innerHTML =config.link[i].name
+        oA.href =config.link[i].path;
+        oA.innerHTML = config.link[i].path;
+        div.appendChild(oA);
+        div.appendChild(label);
+        shadow.appendChild(div);
+    }
 </script>
 
 </html>
