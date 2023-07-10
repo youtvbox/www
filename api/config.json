@@ -1,21 +1,30 @@
 {
-  "spider": "http://www.youtvbox.xyz/api/jar/utv.jar;md5;ae470fb4ed644bcc0c793fd3501fd0dc",
+  "spider": "http://172.16.1.2:1801/test/jar/utv.jar;md5;b98bbd3942ce27aae22d62f8cbb241f8",
   "lives":[{"group":"redirect","channels":[{"name":"live","urls":[
-	"proxy://do=live&type=txt&ext=aHR0cHM6Ly93d3cueW91dHZib3gueHl6L2FwaS9saXZlLnR4dA=="
+	"proxy://do=live&type=txt&ext=aHR0cDovLzQzLjE1NS42NC4yNDkvVFZCb3gvVFYvMi50eHQ="
   ]}]}],
   "sites": [
 	{"key":"IQIYI","name":"【🏊奇异源】","type":3,"api":"csp_IQIYI","searchable":1,"quickSearch":1,"filterable":1},
 	{"key":"芒果备份","name":"【🏊芒果备份源】","type":3,"api":"csp_MGTVEx","searchable":1,"quickSearch":1,"filterable":1},
-    {"key":"七七","name":"【🏊七七 源】","type":3,"api":"csp_Kunyu77","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"七七","name":"【🏊七七 源 修复中】","type":3,"api":"csp_Kunyu77","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
     {"key":"櫻花","name":"【🏊动漫①源】","type":3,"api":"csp_Ying","searchable":1,"changeable":1},
     {"key":"巴士","name":"【🏊动漫②源】","type":3,"api":"csp_Dm84","searchable":1,"changeable":1},
 	{"key":"八戒","name":"【🏊备用聚合源】","type":3,"api":"csp_BaJie","searchable":1,"quickSearch":1,"filterable":1},
-	{"key":"独播","name":"【🏊备用聚合②源】","type":3,"api":"csp_XPathMacFilter","searchable":0,"changeable":1,"ext":"https://www.youtvbox.xyz/api/ext/duboku.json"},
+	{"key":"独播","name":"【🏊备用聚合②源】","type":3,"api":"csp_XPathMacFilter","searchable":0,"changeable":1,"ext":"http://172.16.1.2:1801/test/ext/duboku.json"},
+	{"key":"农名","name":"【🏊农民影视】","type":3,"api":"csp_NongMing","searchable":1},
+	{"key":"360","name":"360","type":3,"api":"csp_SP360","searchable":1},
+	{"key":"SixV","name":"【6V电影网(磁力)修复中】","type":3,"api":"csp_SixV","searchable":1,"ext":"https://www.6vdy.org/"},
+	{"key":"Voflix","name":"【Voflix(磁力)】","type":3,"api":"csp_Voflix","searchable":1,"ext":"https://www.voflix.me/"},
+	
+	{"key":"厂长(js)","name":"【厂长(js)】","type":3,"api":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js","searchable":1,"ext":"https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/厂长资源.js"},
+
     {"key":"玩偶","name":"【🏊云盘②源 4k源】","type":3,"api":"csp_Wogg","searchable":1,"changeable":0,"quickSearch":1,"filterable":1}
   ],
   "parses":[
 	{"name":"gpx","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
-	{"name":"mgtv","type":0,"url":"https://www.m4411.com/vip.html?url="}
+	{"name":"mgtv","type":0,"url":"https://www.m4411.com/vip.html?url="},
+	
+	{"name":"爱酷","type":0,"url":"https://jx.zhanlangbu.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}}
   ],
   "ads": [
     "iqiyi.hbuioo.com",
