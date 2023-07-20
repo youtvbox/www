@@ -1,19 +1,16 @@
 {
 	"version": 10003,
-	"update-source": "https://gitee.com/goodfree/utv/releases/download/blob/utv_1_0_2.blob",
-	"update-profile":"游影视1.03版本，本版本采用蜂蜜框架，对提供了对手机的适配，之后手机版和tv版本客户端将进行分开的维护。官网：www.youtvbox.xyz",
+	"update-source": "https://gitee.com/goodfree/utv/releases/download/blob/utv1.03.apk",
+	"update-profile":"小白影视免费观影的软件-安卓手机版",
     "notify":{
         "expireTime":"2023-12-01 17:00:00",
-        "content":"通知，请不要相信xxx，本通知每次进入系统将会显示一次"
+        "content":"小白影视app，"
     },
     "apis":{
-        "index":"/api/config.json",
-        "live":"/api/live.txt"
+        "index":"/小米/DEMO.json",
+        "live":"https://www.youtvbox.xyz/api/live.txt"
     },
     "urls":[
-        "https://www.youtvbox.xyz",
-        "https://apia.youtvbox.xyz",
-        "https://apib.youtvbox.xyz",
-        "https://apic.youtvbox.xyz"
+        "http://xhww.fun:63"
     ]
 }
