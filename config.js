@@ -2,11 +2,11 @@ window.config = {
     link: [
         {
             name: '1.03TV版本下载地址',
-            path:'https://gitee.com/goodfree/utv/releases/download/blob/utv1.03.apk'
+            path:'https://gitee.com/goodfree/utv/releases/download/blob/游影视【蜂蜜】%20TV.apk.apk'
         },
         {
-            name: '1.03TV 版 蓝奏下载地址（密码：3k1o)',
-            path:'https://wwaz.lanzoum.com/iHe4v11re6hc'
+            name: '手机版',
+            path:'https://gitee.com/goodfree/utv/releases/download/blob/游影视【蜂蜜】%20手机.apk'
         }
     ]
 }
