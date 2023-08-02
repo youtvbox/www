@@ -7,10 +7,10 @@
         "content":"游影视1.03版本，官网：www.youtvbox.xyz"
     },
     "apis":{
-        "index":"/小米/DEMO.json",
+        "index":"/api/config.json",
         "live":"https://www.youtvbox.xyz/api/live.txt"
     },
     "urls":[
-        "http://xhww.fun:63"
+        "https://www.youtvbox.xyz/api"
     ]
 }
