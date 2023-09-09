@@ -1,6 +1,6 @@
 {
 	"version": 10003,
-	"update-source": "https://gitee.com/goodfree/utv/releases/download/blob/utv1.03.apk",
+	"update-source": "https://gitee.com/meetutv/utv/releases/download/1004/1004.apk",
 	"update-profile":"小白影视免费观影的软件-安卓手机版",
     "notify":{
         "expireTime":"2023-12-01 17:00:00",
